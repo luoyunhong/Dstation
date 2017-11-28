@@ -2,7 +2,10 @@
 	<div class="m-header">
 		<!--<div class="bg"></div>-->
 		<h1 class="text">DStation</h1>
-		<div class="icon-search iconfont icon-denglu2"></div>
+		<!--<div class="icon-search iconfont icon-denglu2"></div>-->
+		<router-link class="icon-search iconfont icon-denglu2" to="/login">
+			<!--<span class="tab-link">搜索</span>-->
+		</router-link>
 	</div>
 </template>
 

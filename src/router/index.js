@@ -4,6 +4,7 @@ import Recommend from "components/recommend/recommend"
 import Singlestone from "components/singlestone/singlestone"
 import Classification from "components/classification/classification"
 import Search from "components/search/search"
+import Login from "components/login/login"
 
 
 Vue.use(VueRouter);
@@ -31,6 +32,9 @@ export default new VueRouter({
 	},{
 		path:'/search',
 		component:Search
+	},{
+		path:'/login',
+		component:Login
 	}
 	]
 })
